@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>sports</title>
+<script>
+function place()
+{
+var x=document.getElementById("in").checked;
+var y=document.getElementById("out").checked;
+if(x==true)
+{
+window.location.replace("http://localhost/iwp%20voting%20project/sports_in_Q1.php");
+}
+else if(y==true)
+{
+window.location.replace("http://localhost/iwp%20voting%20project/sports_out_Q1.html");
+}
+else if(x==false && y==false)
+{
+alert("no reply entered!!");
+}
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="Quiz.css" />
+</head>
+
+<body background="http://localhost/iwp%20voting%20project/datasc.jpg" align="center">
+<button><a href="http://localhost/iwp%20voting%20project/home.html">Back home</a></button><br><br>
+<div class="txt">
+Where do you prefer to play?<br><br>
+<input type="radio" name="door" id="in"/>Indoor <input type="radio" name="door" id="out"/>Outdoor<br><br>
+<button class="button" onclick="place()"> Next</button>
+</div>
+</body>
+
+</html> 

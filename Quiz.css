@@ -1,0 +1,21 @@
+h1
+{
+padding-top:50px;
+padding-right:90px;
+}
+body
+{
+background:url('center1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center;
+}
+.txt
+{
+color: white;
+font-size: 200%;
+}
+.button
+{
+  font-size: 20px;
+}
