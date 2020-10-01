@@ -15,5 +15,5 @@ The organisations cannot vote and they can only view the statistics on the basis
 
 
 
-
+![alt text](https://github.com/aakankshakhatri/ONLINE-VOTING-SYSTEM/blob/master/w1.PNG)
 ![alt text](https://github.com/aakankshakhatri/ONLINE-VOTING-SYSTEM/blob/master/web.PNG)
